@@ -7,6 +7,7 @@
   - Nhanh(có thể sử dụng framework)
   - Giống thiết kế 
   - Các thành phần tương tác cơ bản : link, menu, input ... phải phản hồi được thao tác chuột(hover, click), slide chạy.
+- [Chú ý và lỗi hay gặp](help.md)
 2. Code PHP
 - Tạo 1 trang php để quản trị 1 phần nhỏ trong giao diện đã kẻ trước đó
 - Mục tiêu : 
@@ -18,6 +19,14 @@
 
 3. Một số giao diện
 
-- Restaurant
+3.1 Restaurant
 
 ![Restaurant](restaurant.jpg)
+
+3.2 Yêu cầu(PHP)
+
+- Quản lý được menu top
+- Quản lý danh mục món ăn
+- Nhận các request từ form đăng ký cuối trang, hiển thị danh sách trong trang quản lý
+_Chú ý đến validate đầu vào, các tính năng nên có suy ra từ giao diện_
+_Nếu sử dụng tool hay framework hỗ trợ code nhiều thì nên viết theo đúng quy trình nên có của framework như Model, FormRequest, Migration đối với laravel_
